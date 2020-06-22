@@ -171,19 +171,8 @@ footer p {
 .fab {
   font-size: 2.5rem;
 }
-/* 
-.banner-logo {
-  background-image: url(https://source.unsplash.com/random/400x200/?nature);
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 25em;
-  height: 20%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-} */
+
+
 
 @media only screen and (min-width: 769px) {
   .container{
@@ -193,7 +182,16 @@ footer p {
     /* margin-top: -20%; */
     /* margin-bottom: 10em; */
   }
-  
+   .banner-logo {
+     background-image: url(https://source.unsplash.com/random/400x200/?nature);
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 0.9;
+     padding: 25em;
+
+     text-align: center;
+   }
+
   .navbar{
     display: flex;
     flex-wrap: wrap;
@@ -289,16 +287,17 @@ footer p {
 } 
 
 @media only screen and (min-width: 1025px){
-  .banner-logo {
+  /* .banner-logo {
     background-image: url(https://source.unsplash.com/random/400x200/?nature);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    opacity: 0.9;
     padding: 25em;
-    height: 20%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    
     text-align: center;
+  } */
+  h1{
+    /* background-color: rgba(48, 55, 59, 0.2); */
+    font-size: 5em;
   }
 }

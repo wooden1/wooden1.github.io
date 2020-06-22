@@ -31,12 +31,13 @@ body{
   margin-right: auto;
 }
 h1{
-  font-size: 5em;
+  font-size: 3em;
   color: #00bf72;
 }
 .navbar{
   background-color: #004d7a;
   width: 100%;
+  /* height: 20; */
   position: fixed;
   top: 0;
   z-index: 1;
@@ -45,7 +46,7 @@ h1{
 }
 .switch-links{
   text-align: center;
-  padding: 1em 0;
+  padding: 0.4em 0;
 }
 #switch-layout{
   margin-bottom: 1.3em;
@@ -63,7 +64,7 @@ h1{
   margin-bottom: 1.3rem;
 }
 .navbar-links{
-  width: 80%;
+  /* width: 80%; */
   margin: 0 auto;
 }
 .navbar-links li{
@@ -153,9 +154,11 @@ footer p{
 
 
 @media only screen and (min-width: 769px){
-
+  .container{
+    margin-top: 20%;
+  }
   h1{
-    margin-top: -10%;
+    font-size: 5rem;
   }
 
   article{
